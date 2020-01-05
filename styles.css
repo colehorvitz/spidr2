@@ -1,5 +1,6 @@
 /**fonts**/
-a {text-decoration: none;}
+a {text-decoration: none;opacity:.9;transition:opacity .2s ease-in-out}
+a:hover{opacity:1}
 h1, h2, .service p{font-family: 'Source Serif Pro', serif;}
 h1 {font-weight:bold;color:#2F2F2F;font-size:36px;}
 .case-card h1, .services h1, .contact-banner h1{color:white;}
@@ -37,8 +38,8 @@ body{padding:0;margin:0;}
 .header{width:100%;display:flex;justify-content: space-between;}
 .nav{display:flex;justify-content: flex-end;align-items:center}
 .nav a{padding-left:5rem;}
-.text-wrap{width:40%;height:5em;background-color:white;text-align:center;
-    display:flex;align-items:center;justify-content: center;}
+.text-wrap{padding:0 5rem;height:5em;background-color:white;text-align:center;
+    display:flex;align-items:center;justify-content: center;border:2px solid #BDBDBD;}
 .learn-more{display:flex;align-items:center;}
 .learn-more h2{padding-right:.5rem;margin:0;}
 
@@ -50,14 +51,14 @@ body{padding:0;margin:0;}
 }
 .content{width:100%;background-color:white;
     box-shadow:0px 4px 4px rgba(0,0,0,.25);
-    transform:translateY(-2%);
+    transform:translateY(-1.5%);
 }
 .case-studies{display:flex;align-items: center;padding:3rem 5rem; flex-direction: column}
 .card-contain{display:flex;width:100%;padding:5rem 0;justify-content: center}
-.case-card:nth-child(2){transform: translateY(-3%);}
-.case-card{width:16vw;height:16vw;background-color:green;position:relative;}
+#card2{transform: translateY(-3%);}
+.case-card{width:16vw;height:16vw;position:relative;}
 .case-card div{width:100%;height:100%;background-color:rgba(0,0,0,.5); 
-     position:absolute; opacity:0;transition:opacity .25s; box-sizing:border-box; padding:1rem 2rem;}
+     position:absolute; opacity:0;transition:opacity .1s; box-sizing:border-box; padding:1rem 2rem;}
 .services{width:100%;background-color:#2F2F2F; display:flex;align-items: center;
 padding:2rem 10%;flex-direction: column;box-sizing:border-box}
 .service-flex{width:100%;justify-content: space-between;display:flex;text-align:center;
@@ -71,11 +72,22 @@ padding:3rem 0;}
 .contact{height:20em;}
 .footer{background-color:#2F2F2F;display:flex;height:10em;justify-content: center;align-items: center;}
 
+/*page divs*/
+.black {background-color:#202020;padding:5rem 16vw; padding-bottom:2rem;border-bottom:3px solid white;box-sizing:border-box}
+.page-banner{width:100%; height:60vh;display:flex;justify-content: center;align-items: center;}
+#richard-banner{background-image:url('media/zim-banner.png');background-size:cover;background-position:center}
+#bridge-banner{background-image:url('media/bridge-banner.jpg');background-size:cover;background-position:center;}
+#calm-banner{background-image:url("media/beach.jpg");background-size:cover;background-position:center;}
+.page-content{display:flex;flex-direction: column;align-items: center;padding-bottom:5rem}
+.page-text{padding:5rem 24%;}
+.page-text h1{text-align:center;padding-bottom:3rem;}
+.page-content img{width:70%;height:30em;object-fit: cover}
+
 /**img**/
 .logo{width:200px}
 .learn-more img{width:24px;height:24px;}
 .case-card img{width:100%;height:100%;object-fit:cover;
-    filter:saturate(0);transition:filter .25s ease-in-out;position:absolute;
+    filter:saturate(0);transition:filter .1s ease-in-out;position:absolute;
   }
 .case-card:hover div{opacity:1;cursor:pointer;}
 .case-card:hover img{filter:saturate(100%);}
