@@ -5,7 +5,7 @@ h1, h2, .service p{font-family: 'Source Serif Pro', serif;}
 h1 {font-weight:bold;color:#2F2F2F;font-size:36px;}
 .case-card h1, .services h1, .contact-banner h1{color:white;}
 h2{font-weight:600;color:#EBEBEB;font-size:18px;}
-.nav a, p{font-family:'Source Sans Pro', sans-serif;font-size:18px;color:white;font-weight:200;}
+.nav a, p, button{font-family:'Source Sans Pro', sans-serif;font-size:18px;color:white;font-weight:200;}
 p{font-size:16px;color:#464646;font-weight:400;line-height:1.5}
 .case-card p, .services p{color:#E7E7E7}
 body{margin:0;padding:0;}
@@ -68,7 +68,7 @@ padding:3rem 0;}
 .faces{position: relative;width:400px;height:100%;display:flex;justify-content: flex-end}
 .faces img{width:225px;height:225px}
 .contact-banner{margin:5rem 0;width:100%;background-color:#2F2F2F; display:flex;justify-content: center;}
-.contact{height:20em;}
+.contact{clear:both;height:27em;}
 .footer{background-color:#2F2F2F;display:flex;height:10em;justify-content: center;align-items: center;}
 
 /*page divs*/
@@ -93,3 +93,31 @@ padding:3rem 0;}
 .cole-img{left:50%;top:50%;z-index:1;position:absolute;}
 .cole-img:hover, .ajeet-img:hover{z-index:2}
 .ajeet-img{position:absolute;}
+/**form**/
+
+.contact form{
+    display:block;width:75%;margin:auto;;
+}
+.contact label{
+    line-height:1;
+}
+.contact textarea{
+    width:100%;
+    height:auto;
+}
+.contact input{
+    width:98%;
+}
+.contact button{
+    background-color:#2F2F2F;
+    border-radius: 3px;
+    color: white;
+    font-size:18px;
+    font-weight:bold;
+    border: none;
+    padding:.75em 2em;
+    box-sizing: border-box;
+    display:block;
+    margin:auto;
+    margin-right:0;
+}
