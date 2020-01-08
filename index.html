@@ -14,22 +14,22 @@
                 <div class="header">
                     <a href=""><img class="logo" src="media/logo.png" /></a>
                     <div class="nav">
-                        <a href="">Work</a>
-                        <a href="">About</a>
-                        <a href="">Contact</a>
+                        <a href="#content">Work</a>
+                        <a href="#services">About</a>
+                        <a href="#contact">Contact</a>
                     </div>
                 </div>
                 <div class="text-wrap">
                     <h1>Websites, tailor made.</h1>
                 </div>
                 <div class="learn-more">
-                    <a href=""><h2>Learn More</h2></a>
+                    <a href="#content"><h2>Learn More</h2></a>
                     <img src="media/chevrons.png" />
                 </div>
             </div>
         </div>
         <div class="content-background">
-            <div class="content">
+            <div class="content" id="content">
                 <div class="case-studies">
                     <h1>Case Studies</h1>
                     <p>Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</p>
@@ -64,7 +64,7 @@
                     </div>
                 </div>
             </div>
-            <div class="services">
+            <div class="services" id="services">
                 <h1>Services</h1>
                 <p>Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</p>
                 <div class="service-flex">
@@ -108,7 +108,7 @@
                     </div>
                 </div>
             </div>
-            <div class="contact-banner">
+            <div class="contact-banner" id="contact">
                 <h1>Contact us for a free, individualized consultation.</h1>
             </div>
             <div class="contact"></div>
@@ -119,3 +119,7 @@
         </div>
     </body>
 </html>
+<script>
+var content = document.getElementById("content")
+function scroll(){}
+</script>
