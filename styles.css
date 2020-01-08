@@ -68,7 +68,7 @@ padding:3rem 0;}
 .faces{position: relative;width:400px;height:100%;display:flex;justify-content: flex-end}
 .faces img{width:225px;height:225px}
 .contact-banner{margin:5rem 0;width:100%;background-color:#2F2F2F; display:flex;justify-content: center;}
-.contact{clear:both;height:27em;}
+.contact{clear:both;min-height:27em;}
 .footer{background-color:#2F2F2F;display:flex;height:10em;justify-content: center;align-items: center;}
 
 /*page divs*/
