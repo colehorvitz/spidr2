@@ -116,12 +116,12 @@ html {scroll-behavior: smooth;}
     border:1px solid lightgrey;
 }
 .contact button{
-    background-color:#2F2F2F;
     border-radius: 3px;
-    color: white;
+    color:#464646;
+    background-color:white;
+    border:1px solid #464646;
     font-size:18px;
     font-weight:bold;
-    border: none;
     padding:.75rem 2rem;
     box-sizing: border-box;
     display:block;
@@ -131,4 +131,4 @@ html {scroll-behavior: smooth;}
     transition:.15s color ease-in-out, .15s background-color ease-in-out;
     cursor:pointer;
 }
-.contact button:hover{color:#2F2F2F; background-color:white; border:1px solid #2F2F2F}
+.contact button:hover{background-color:#464646; color:white; }
