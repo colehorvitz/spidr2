@@ -82,7 +82,8 @@ html {scroll-behavior: smooth;}
 .page-content{display:flex;flex-direction: column;align-items: center;padding-bottom:5rem}
 .page-text{padding:5rem 24%;}
 .page-text h1{text-align:center;padding-bottom:3rem;}
-.page-content img{width:70%;height:30em;object-fit: cover}
+.page-content a{display:flex;flex-direction: column;align-items: center}
+.page-content img{width:70%;object-fit: cover}
 
 /**img**/
 .logo{width:200px}
