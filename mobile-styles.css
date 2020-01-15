@@ -1,0 +1,50 @@
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+    h1{font-size:4em;}
+    p{font-size:2em;text-align:center;}
+    .text-wrap{background-color: transparent;border:2px solid white;}
+    .text-wrap h1{color:white;}
+    h2{font-size:2em;}
+    .nav{width:10%}
+    .nav a{font-size:2em;padding-left:3rem}
+    .logo{width:300px;}
+    .content-overlay{padding:10vh 10vw}
+    .content-background{padding:0;}
+    .card-contain{flex-direction: column;align-items: center;padding:0;}
+    .case-card{width:100vw;height:40vw;border:1px solid white;}
+    #card2{transform:none}
+    .case-card div{opacity:1;display:flex;align-items:center;justify-content: center}
+    .case-studies{padding:0 0;}
+    .case-studies h1{margin-bottom:8rem;margin-top:8rem}
+    .case-studies p{display:none}
+    .service-flex{flex-direction: column;align-items: center;display:grid;grid-template-columns:1fr 1fr}
+    .service-flex div{display:flex;flex-direction:column; align-items: center;padding:4rem;}
+    .service-flex img{width:256px;height:256px;}
+    #service-p{display:none}
+    .services h1{padding:4rem 0;margin:0;}
+    .services p{font-size:2.5em;font-weight:bold;margin:.5rem 0;}
+    .contact-banner{text-align:center;}
+    form p{text-align:left;}
+    .spidr-story{flex-direction:column;text-align:center;}
+    .spidr-story div{width:100%;}
+    .faces{display:flex;justify-content: center;padding:4rem;box-sizing:border-box}
+    .faces img{width:300px; height:300px;border:1px solid #EEEEEE}
+    .cole-img, .ajeet-img{z-index:0;position:static;margin:2rem;}
+    .contact-banner{margin-top:0}
+    .contact input{height:3em;}
+    .contact button{width:196px;height:64px}
+    .banner-wrap{height:100vh;}
+    .page-banner{height:100vh;}
+    .content{transform:none;}
+    .overlay{padding:10vh 10vw}
+    .page-banner{height:90vh}
+    .page-text{padding:8rem 10vw}
+    .page-text h1{line-height:1.5}
+    .page-text p{line-height:2}
+    .page-content{padding:0;}
+    .page-content img{width:100%;}
+    .hamburger{display:block;width:48px;height:48px;padding-top:6px}
+    .menu{width:66vw;height:100vh;position:absolute;z-index:5;background-color:rgba(0,0,0,.5);transform:translateX(-26%) }
+    .menu a{color:white;font-size:3em;}
+    .contact{padding:8rem 0;}
+
+}
