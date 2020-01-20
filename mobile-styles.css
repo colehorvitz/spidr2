@@ -31,7 +31,7 @@
     .cole-img, .ajeet-img{z-index:0;position:static;margin:2rem;}
     .contact-banner{margin-top:0}
     .contact input{height:3em;}
-    .contact button{width:196px;height:64px}
+    .contact button{width:35vw;height:13vw}
     .banner-wrap{height:100vh;}
     .page-banner{height:100vh;}
     .content{transform:none;}
@@ -45,6 +45,5 @@
     .hamburger{display:block;width:48px;height:48px;padding-top:6px}
     .menu{width:66vw;height:100vh;position:absolute;z-index:5;background-color:rgba(0,0,0,.5);transform:translateX(-26%) }
     .menu a{color:white;font-size:3em;}
-    .contact{padding:8rem 0;}
 
 }
