@@ -17,7 +17,7 @@
     .case-studies h1{margin-bottom:8rem;margin-top:8rem}
     .case-studies p{display:none}
     .service-flex{flex-direction: column;align-items: center;display:grid;grid-template-columns:1fr 1fr}
-    .service-flex div{display:flex;flex-direction:column; align-items: center;padding:4rem;}
+    .service-flex div{display:flex;flex-direction:column; align-items: center;padding:1rem;}
     .service-flex img{width:256px;height:256px;}
     #service-p{display:none}
     .services h1{padding:4rem 0;margin:0;}
