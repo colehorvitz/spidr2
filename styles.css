@@ -109,7 +109,7 @@ html {scroll-behavior: smooth;}
 .contact form{
     display:block;width:75%;margin: auto;;
 }
-.contact-banner h1 { padding: 3vw;}
+.contact-banner h1 { padding: 5vw;}
 .contact label{
     line-height:1;
 }
