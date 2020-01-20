@@ -26,7 +26,7 @@
     form p{text-align:left;}
     .spidr-story{flex-direction:column;text-align:center;padding:5vw 10vw;}
     .spidr-story div{width:100%;}
-    .faces{display:flex;justify-content: center;padding:4rem;box-sizing:border-box}
+    .faces{display:flex;justify-content: center;padding:1vw;box-sizing:border-box}
     .faces img{width:35vw; height:35vw;border:1px solid #EEEEEE}
     .cole-img, .ajeet-img{z-index:0;position:static;margin:2rem;}
     .contact-banner{margin-top:0}
