@@ -104,12 +104,11 @@ html {scroll-behavior: smooth;}
 .ajeet-img{position:absolute;}
 
 /**form**/
-.contact-banner{margin:5rem 0;margin-bottom:1rem;width:100%;background-color:#212121; display:flex;justify-content: center;}
+.contact-banner{margin:8vw 0;margin-bottom:1rem;width:100%;background-color:#212121; display:flex;justify-content: center;}
 .contact{clear:both;padding:0 5vw;min-height:27em;display:flex; justify-content: center;}
 .contact form{
     display:block;width:75%;margin: auto;;
 }
-.contact-banner h1 { padding: 5vw;}
 .contact label{
     line-height:1;
 }
