@@ -27,7 +27,7 @@
     .spidr-story{flex-direction:column;text-align:center;padding:5vw 10vw;}
     .spidr-story div{width:100%;}
     .faces{display:flex;justify-content: center;padding:4rem;box-sizing:border-box}
-    .faces img{width:300px; height:300px;border:1px solid #EEEEEE}
+    .faces img{width:35vw; height:35vw;border:1px solid #EEEEEE}
     .cole-img, .ajeet-img{z-index:0;position:static;margin:2rem;}
     .contact-banner{margin-top:0}
     .contact input{height:3em;}
