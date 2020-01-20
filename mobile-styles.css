@@ -45,5 +45,5 @@
     .hamburger{display:block;width:48px;height:48px;padding-top:6px}
     .menu{width:66vw;height:100vh;position:absolute;z-index:5;background-color:rgba(0,0,0,.5);transform:translateX(-26%) }
     .menu a{color:white;font-size:3em;}
-
+    .footer{padding:0 10vw;}
 }
