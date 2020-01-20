@@ -14,7 +14,7 @@
     #card2{transform:none}
     .case-card div{opacity:1;display:flex;align-items:center;justify-content: center}
     .case-studies{padding:0 0;}
-    .case-studies h1{margin-bottom:8rem;margin-top:8rem}
+    .case-studies h1{margin-bottom:4rem;margin-top:4rem}
     .case-studies p{display:none}
     .service-flex{flex-direction: column;align-items: center;display:grid;grid-template-columns:1fr 1fr}
     .service-flex div{display:flex;flex-direction:column; align-items: center;padding:2vw;}
