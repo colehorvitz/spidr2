@@ -24,7 +24,7 @@
     .services p{font-size:4vw;font-weight:bold;margin:.5rem 0;}
     .contact-banner{text-align:center;}
     form p{text-align:left;}
-    .spidr-story{flex-direction:column;text-align:center;}
+    .spidr-story{flex-direction:column;text-align:center;padding:5vw 10vw;}
     .spidr-story div{width:100%;}
     .faces{display:flex;justify-content: center;padding:4rem;box-sizing:border-box}
     .faces img{width:300px; height:300px;border:1px solid #EEEEEE}
