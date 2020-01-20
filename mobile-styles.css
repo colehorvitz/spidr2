@@ -26,8 +26,9 @@
     form p{text-align:left;}
     .spidr-story{flex-direction:column;text-align:center;padding:5vw 10vw;}
     .spidr-story div{width:100%;}
-    .faces{display:flex;justify-content: center;padding:1vw;box-sizing:border-box}
-    .faces img{width:35vw; height:35vw;border:1px solid #EEEEEE}
+    .faces{display:flex;position:static;float:none;z-index:auto;
+        justify-content: center;padding:1vw;box-sizing:border-box}
+    .faces img{width:35vw; height:35vw;border:1px solid #EEEEEE;display:block;float:none;position:static;z-index:auto;}
     .cole-img, .ajeet-img{z-index:0;position:static;margin:2rem;}
     .contact-banner{margin-top:0}
     .contact input{height:3em;}
