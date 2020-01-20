@@ -1,12 +1,12 @@
 @media only screen and (max-width: 960px){
-    h1{font-size:4em;}
+    h1{font-size:6vw;}
     p{font-size:2em;text-align:center;}
     .text-wrap{background-color: transparent;border:2px solid white;}
     .text-wrap h1{color:white;}
-    h2{font-size:2em;}
+    h2{font-size:4vw;}
     .nav{width:10%}
-    .nav a{font-size:2em;padding-left:3rem}
-    .logo{width:300px;}
+    .nav a{font-size:4vw;padding-left:4vw}
+    .logo{width:33vw;}
     .content-overlay{padding:10vh 10vw}
     .content-background{padding:0;}
     .card-contain{flex-direction: column;align-items: center;padding:0;}
@@ -17,8 +17,8 @@
     .case-studies h1{margin-bottom:8rem;margin-top:8rem}
     .case-studies p{display:none}
     .service-flex{flex-direction: column;align-items: center;display:grid;grid-template-columns:1fr 1fr}
-    .service-flex div{display:flex;flex-direction:column; align-items: center;padding:1rem;}
-    .service-flex img{width:256px;height:256px;}
+    .service-flex div{display:flex;flex-direction:column; align-items: center;padding:2vw;}
+    .service-flex img{width:30vw;height:30vw;}
     #service-p{display:none}
     .services h1{padding:4rem 0;margin:0;}
     .services p{font-size:2.5em;font-weight:bold;margin:.5rem 0;}
