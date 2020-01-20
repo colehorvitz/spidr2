@@ -1,4 +1,4 @@
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 960px){
     h1{font-size:4em;}
     p{font-size:2em;text-align:center;}
     .text-wrap{background-color: transparent;border:2px solid white;}
