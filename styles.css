@@ -59,7 +59,7 @@ body{padding:0;margin:0;}
 .case-studies{display:flex;align-items: center;padding:3rem 5rem; flex-direction: column}
 .card-contain{display:flex;width:100%;padding:5rem 0;justify-content: center}
 #card2{animation-name:float2;transform: translateY(-3%);animation-duration:4s;  animation-iteration-count: infinite;}
-.case-card{width:16vw;height:16vw;position:relative;animation-name:float;animation-duration:4s;animation-iteration-count: infinite;}
+.case-card{width:17vw;height:17vw;position:relative;animation-name:float;animation-duration:4s;animation-iteration-count: infinite;}
 .case-card div{width:100%;height:100%;background-color:rgba(0,0,0,.33); 
      position:absolute; opacity:0;transition:opacity .1s; box-sizing:border-box; padding:1rem 2rem;}
 .services{width:100%;background:#212121; display:flex;align-items: center;
