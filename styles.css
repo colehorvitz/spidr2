@@ -1,6 +1,7 @@
 /**fonts**/
 a {text-decoration: none;opacity:.9;transition:opacity .2s ease-in-out}
 a:hover{opacity:1}
+p{opacity:.5}
 h1, h2, .service p{font-family: 'Source Serif Pro', serif;}
 h1 {font-weight:bold;color:#212121;font-size:36px;}
 .case-card h1, .services h1, .contact-banner h1{color:white;}
@@ -9,7 +10,6 @@ h2{font-weight:600;color:#EBEBEB;font-size:18px;}
 p{font-size:16px;color:#212121;font-weight:400;line-height:1.5}
 .case-card p, .services p{color:#E7E7E7}
 body{margin:0;padding:0;}
-.page-text p{color:#757575;}
 /**containers**/
 body{padding:0;margin:0;}
 .banner-wrap{
@@ -72,8 +72,8 @@ padding:3rem 0;}
 .faces{position: relative;width:400px;height:100%;display:flex;justify-content: flex-end}
 .faces img{width:225px;height:225px}
 
-.footer{background-color:#212121;display:flex;height:10em;justify-content: center;align-items: center;}
-
+.footer{background-color:#212121;display:flex;height:10em;justify-content: center;align-items: center;flex-direction:column}
+.footer div{display:flex}
 /*page divs*/
 html {scroll-behavior: smooth;}
 .black {position:absolute;background-color:#202020;background-color:transparent;padding:5rem 16vw; padding-bottom:2rem;border-bottom:0px solid white;box-sizing:border-box}
@@ -102,7 +102,10 @@ html {scroll-behavior: smooth;}
 .cole-img{left:50%;top:50%;z-index:1;position:absolute;}
 .cole-img:hover, .ajeet-img:hover{z-index:2}
 .ajeet-img{position:absolute;}
-
+.footer img{
+    width:32px;
+    height:32px;
+}
 /**form**/
 .contact-banner{margin:1vw 0;margin-bottom:1rem;width:100%;background-color:#212121; display:flex;justify-content: center;}
 .contact-banner h1 {margin: 3vw;}
@@ -150,3 +153,4 @@ html {scroll-behavior: smooth;}
     50%{transform:translateY(0)}
     100% {transform:translateY(-2%)}
 }
+
