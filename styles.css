@@ -1,7 +1,7 @@
 /**fonts**/
 a {text-decoration: none;opacity:.9;transition:opacity .2s ease-in-out}
 a:hover{opacity:1}
-p{opacity:.5}
+p{opacity:.72}
 h1, h2, .service p{font-family: 'Source Serif Pro', serif;}
 h1 {font-weight:bold;color:#212121;font-size:36px;}
 .case-card h1, .services h1, .contact-banner h1{color:white;}
