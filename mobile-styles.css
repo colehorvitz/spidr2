@@ -1,4 +1,4 @@
-@media only screen and (max-width: 960px){
+@media only screen and (max-width: 768px){
     h1{font-size:8vw;}
     p{font-size:4vw;text-align:center;}
     .text-wrap, .learn-more {padding:.5rem;background-color: transparent;border:2px solid white;}
@@ -51,4 +51,14 @@
     .menu{width:66vw;height:100vh;position:absolute;z-index:5;background-color:rgba(0,0,0,.5);transform:translateX(-26%) }
     .menu a{color:white;font-size:3em;}
     .footer{padding:0 10vw;}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .case-card{
+        height:25vw;
+        width:25vw;
+    }
+    .content-background{
+        padding: 0 5vw;
+    } 
+      
 }
