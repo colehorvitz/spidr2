@@ -104,7 +104,7 @@ html {scroll-behavior: smooth;}
   }
 .case-card:hover div{background-color: rgba(0,0,0,.80);cursor:pointer;}
 .case-card:hover img{filter:saturate(100%);}
-.cole-img{left:50%;top:50%;z-index:1;position:absolute;}
+.cole-img{left:7vw;top:30%;z-index:1;position:absolute;}
 .cole-img:hover, .ajeet-img:hover{z-index:2}
 .ajeet-img{position:absolute;}
 .footer img{
