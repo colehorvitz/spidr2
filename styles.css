@@ -1,4 +1,4 @@
-/**fonts**/
+/**fonts testing git**/
 a {text-decoration: none;opacity:.9;transition:opacity .2s ease-in-out}
 a:hover{opacity:1}
 p{opacity:.72}
@@ -84,7 +84,7 @@ html {scroll-behavior: smooth;}
 .page-banner{width:100%; height:80vh;box-sizing:border-box;}
 .banner-wrap{ display:flex;align-items: center;justify-content: center;}
 #home-banner{ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 10vh);}
-#richard-banner{background-image:url('media/zim-banner.png');background-size:cover;background-position:center}
+#richard-banner{background-image:url('media/zim-banner.jpg');background-size:cover;background-position:center}
 #bridge-banner{background-image:url('media/bridge-banner.jpg');background-size:cover;background-position:center;}
 #calm-banner{background-image:url("media/beach.jpg");background-size:cover;background-position:center;}
 .page-content{display:flex;flex-direction: column;align-items: center;padding-bottom:5rem}
@@ -104,7 +104,7 @@ html {scroll-behavior: smooth;}
   }
 .case-card:hover div{background-color: rgba(0,0,0,.80);cursor:pointer;}
 .case-card:hover img{filter:saturate(100%);}
-.cole-img{left:50%;top:50%;z-index:1;position:absolute;}
+.cole-img{left:7vw;top:30%;z-index:1;position:absolute;}
 .cole-img:hover, .ajeet-img:hover{z-index:2}
 .ajeet-img{position:absolute;}
 .footer img{
